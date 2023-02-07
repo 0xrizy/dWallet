@@ -1,0 +1,22 @@
+{
+  "name": "walletd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshitijofficial/walletD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshitijofficial/walletD/issues"
+  },
+  "homepage": "https://github.com/kshitijofficial/walletD#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

@@ -29,9 +29,13 @@ const App = () => {
   return (
     <div className="App">
       <div className="container">
-        <Welcome />
-        <Accounts web3={web3} accountAddress={saveAccountAddress} />
-        <SendEther web3={web3} account={account}></SendEther>
+        <Welcome className="welcome" />
+        <Accounts
+          className="acc"
+          web3={web3}
+          accountAddress={saveAccountAddress}
+        />
+        <SendEther className="se" web3={web3} account={account}></SendEther>
       </div>
     </div>
   );
